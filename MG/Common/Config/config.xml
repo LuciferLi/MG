@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="item.xsd" generated="2008-12-28T19:12:24">
+    <item>
+        <TabTitle>首页</TabTitle>
+        <TabImage>tab_home</TabImage>
+        <ControllerName>HomeViewController</ControllerName>
+    </item>
+    <item>
+        <TabTitle>项目</TabTitle>
+        <TabImage>tab_project</TabImage>
+        <ControllerName>ProjectViewController</ControllerName>
+    </item>
+    <item>
+        <TabTitle>服务</TabTitle>
+        <TabImage>tab_service</TabImage>
+        <ControllerName>ServiceViewController</ControllerName>
+    </item>
+    <item>
+        <TabTitle>我</TabTitle>
+        <TabImage>tab_my</TabImage>
+        <ControllerName>MeViewController</ControllerName>
+    </item>
+</dataroot>

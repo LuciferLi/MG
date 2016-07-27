@@ -1,0 +1,16 @@
+import "ProvinceModel.proto";
+import "PositionModel.proto";
+import "IndustryModel.proto";
+import "ProductStageModel.proto";
+import "FinancingStageModel.proto";
+import "KeyValuePairStringBool.proto";
+import "ServiceScopeModel.proto";
+message BasicDataModel {
+    repeated ProvinceModel ProvinceList = 1;
+    repeated PositionModel PositionList = 2;
+    repeated IndustryModel IndustryList = 3;
+    repeated ProductStageModel ProductStageList = 4;
+    repeated FinancingStageModel FinancingStageList = 5;
+    repeated KeyValuePairStringBool ShareList = 6; //项目:Project  ,活动:Activity  资讯:Article
+    repeated ServiceScopeModel ServiceScopeList = 7;
+}
